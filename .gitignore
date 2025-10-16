@@ -1,1 +1,45 @@
+# Environment variables
 
+.env
+
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Docker
+
+*.log
+
+# SSL Certificates (if you generate any)
+
+nginx/ssl/*.pem
+nginx/ssl/*.key
+nginx/ssl/*.crt
+
+# Database data (should be in volumes anyway)
+
+data/
+*.db
